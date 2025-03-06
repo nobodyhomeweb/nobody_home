@@ -21,24 +21,8 @@
   text-transform: uppercase;
 }
 
-/* Container for the links */
-#div_top_hypers {
-    background-color: #eeeeee;
-    display: inline;      
-}
-
-/* List Item Style */
-#ul_top_hypers {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0;
-    margin: 20px 0 0 0; /* Space between the title and the navigation links */
-    text-align: right; /* Align navigation links to the right */
-}
-
-/* List Item Style */
-#ul_top_hypers li {
-    display: inline; /* Display list items inline */
-    margin-right: 15px; /* Space between items */
+ul {
+  list-style-type: none
 }
 
 /* Paragraph Title Style */
