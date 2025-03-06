@@ -10,7 +10,7 @@
   color: black;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 5pt; /* Space after title */
+  margin-bottom: 20px; /* Space after title */
 }
 
 /* Subtitle Style */
@@ -20,7 +20,7 @@
   color: black;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 3pt; /* Space after subtitle */
+  margin-bottom: 10px; /* Space after subtitle */
 }
 
 /* Paragraph Title Style */
