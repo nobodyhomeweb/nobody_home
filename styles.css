@@ -9,7 +9,7 @@
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px; /* Space after title */
-  text-align: right; /* Align the title to the right */
+  text-align: left; /* Align the title to the right */
 }
 
 /* Navigation Links Style */
