@@ -1,0 +1,52 @@
+/* CSS Stylesheet */
+
+/* Importing "Neue Haas Grotesk" font */
+@import url('https://fonts.googleapis.com/css2?family=Neue+Haas+Grotesk:wght@400;700&display=swap');
+
+/* Title Style */
+.title {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 10pt;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5pt; /* Space after title */
+}
+
+/* Subtitle Style */
+.subtitle {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 8pt;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 3pt; /* Space after subtitle */
+}
+
+/* Paragraph Title Style */
+.paragraph-title {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 8pt;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 3pt; /* Space after paragraph title */
+}
+
+/* Normal Paragraph Style */
+.paragraph {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 8pt;
+  color: black;
+  font-weight: normal; /* Regular weight */
+}
+
+/* Link Style */
+a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Default color for links */
+}
+
+/* Red link color when clicked (active state) */
+a:active {
+  color: red;
+}
