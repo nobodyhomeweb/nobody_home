@@ -69,7 +69,7 @@ a:hover   { color: red } /* user hovers     */
 a:active  { color: red }   /* active links    */
 a:active  { color: black }   /* when element accepts tab focus */
 
-#footer{
+.footer{
     font-family: 'Neue Haas Grotesk', sans-serif;
     font:bold 8pt;
     color:black;
