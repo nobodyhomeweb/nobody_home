@@ -31,15 +31,14 @@ li {
   margin-right: 10px; /* add spacing between items */
 }
 
-iframe 
-{
- display: block; 
- width: 100%;
-height: 100%;
- border: none; 
- overflow-y: auto; 
- overflow-x: hidden;
-}
+ .iframe_dims  {
+   float:left;
+   width:88%; max-width:888px; 
+   height:200px; 
+  margin:0 4.2em; 
+  border:solid 1px red; padding:0.42em;
+  overflow:auto;
+  }
 
 /* Paragraph Title Style */
 .paragraph-title {
