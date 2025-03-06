@@ -65,6 +65,6 @@ a {
 
 a:link    { color: black }    /* unvisited links */
 a:visited { color: black }   /* visited links   */
-a:hover   { color: black } /* user hovers     */
+a:hover   { color: red } /* user hovers     */
 a:active  { color: red }   /* active links    */
 a:active  { color: black }   /* when element accepts tab focus */
