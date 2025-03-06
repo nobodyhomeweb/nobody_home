@@ -1,5 +1,45 @@
-<column-set gutter="1.3rem"><column-unit slot="0"><a class="title" href="main" rel="history">NOBODY HOME<br></a><span class="paragraph-1"></span>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOBODY HOME</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+  <!-- Include navigation layout -->
+  <div id="navbar"></div>
 
+  <main>
+    <h1>Welcome to NOBODY HOME</h1>
+    <p>This is the main page.</p>
+  </main>
 
-</column-unit><column-unit slot="1"><span class="paragraph-1"></span>&nbsp;</column-unit><column-unit slot="2"></column-unit><column-unit slot="3"><span class="paragraph-1"></span></column-unit><column-unit slot="4"></column-unit></column-set><column-set gutter="1.3rem" mobile-hide-empty="false" mobile-stack="true"><column-unit slot="0"><span class="paragraph-1"><a href="myth" rel="history">MYTH</a> &nbsp; &nbsp; &nbsp; &nbsp;MATTER &nbsp; &nbsp; &nbsp; &nbsp;SIMILARITY &nbsp; &nbsp; &nbsp; &nbsp;<a href="cosmoscope" rel="history">COSMOSCOPE</a></span></column-unit><column-unit slot="1"></column-unit><column-unit slot="2"></column-unit><column-unit slot="3"></column-unit></column-set><column-set gutter="1"></column-set>
+  <!-- Include footer if necessary -->
+  <div id="footer"></div>
+
+  <script>
+    // Dynamically include navigation (or you can use iframe to include HTML)
+    document.getElementById('navbar').innerHTML = `
+      <column-set gutter="1.3rem">
+        <column-unit slot="0"><a class="title" href="main" rel="history">NOBODY HOME</a></column-unit>
+        <column-unit slot="1"></column-unit>
+        <column-unit slot="2"></column-unit>
+        <column-unit slot="3"></column-unit>
+        <column-unit slot="4"></column-unit>
+      </column-set>
+      <column-set gutter="1.3rem" mobile-hide-empty="false" mobile-stack="true">
+        <column-unit slot="0">
+          <span class="paragraph-1">
+            <a href="myth" rel="history">MYTH</a> &nbsp; &nbsp; &nbsp; &nbsp;
+            MATTER &nbsp; &nbsp; &nbsp; &nbsp; SIMILARITY &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="cosmoscope" rel="history">COSMOSCOPE</a>
+          </span>
+        </column-unit>
+      </column-set>
+    `;
+  </script>
+
+</body>
+</html>
