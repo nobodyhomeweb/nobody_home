@@ -31,6 +31,15 @@ li {
   margin-right: 10px; /* add spacing between items */
 }
 
+iframe 
+{
+ display: block; 
+ width: 100%; 
+ border: none; 
+ overflow-y: auto; 
+ overflow-x: hidden;
+}
+
 /* Paragraph Title Style */
 .paragraph-title {
   font-family: 'Neue Haas Grotesk', sans-serif;
