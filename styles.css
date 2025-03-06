@@ -12,16 +12,15 @@
   text-align: right; /* Align the title to the right */
 }
 
-/* Subtitle List Style */
-.subtitle-list {
+/* Navigation Links Style */
+nav ul {
   list-style-type: none; /* Remove bullet points */
   padding: 0;
-  margin: 20px 0 0 0; /* Space between the title and the subtitles */
-  text-align: right; /* Align subtitles to the right */
+  margin: 20px 0 0 0; /* Space between the title and the navigation links */
+  text-align: right; /* Align navigation links to the right */
 }
 
-/* Subtitle Item Style */
-.subtitle-list li {
+nav ul li {
   display: inline; /* Display list items inline */
   margin-right: 15px; /* Space between items */
 }
