@@ -69,9 +69,10 @@ a:active  { color: red }   /* active links    */
 a:active  { color: black }   /* when element accepts tab focus */
 
 .footer {
-    font-family: 'Neue Haas Grotesk', sans-serif;
-    font:bold 8pt;
-    color:black;
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 6pt;
+  color: black;
+  font-weight: normal;
     width:100%;
     height:auto;
     padding:1%;
