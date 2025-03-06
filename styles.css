@@ -34,7 +34,8 @@ li {
 iframe 
 {
  display: block; 
- width: 100%; 
+ width: 100%;
+height: 100%;
  border: none; 
  overflow-y: auto; 
  overflow-x: hidden;
@@ -63,7 +64,7 @@ a {
 }
 
 a:link    { color: black }    /* unvisited links */
-a:visited { color: red }   /* visited links   */
+a:visited { color: black }   /* visited links   */
 a:hover   { color: black } /* user hovers     */
 a:active  { color: red }   /* active links    */
-a:active  { color: red }   /* when element accepts tab focus */
+a:active  { color: black }   /* when element accepts tab focus */
