@@ -116,6 +116,9 @@ ul.elements li {
   margin-bottom: 15px; /* Adds space between items vertically */
 }
 
+ul.elements li:first-child {
+  padding-top: 20px;    /* Bigger padding above the first element */
+}
 .container {
   text-align: center;
   width: 80%;
