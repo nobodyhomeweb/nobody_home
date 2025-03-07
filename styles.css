@@ -60,20 +60,6 @@
   color: black;
   font-weight: normal; /* Regular weight */
 }
-/* Element Style, for listed elements e.g. in similarity page */
-.element {
-  font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 10pt;
-  font-weight: bold;
-  margin: 5px 0;
-  padding-left: 1cm; /* Indentation for the list items */
-  cursor: pointer;
-}
-/* Style for when hovering above element */
-.element:hover {
-  color: #FF0000; /* Change text color on hover */
-}
-
 
 
 
@@ -101,29 +87,6 @@ li {
   display: inline-block;
   margin-right: 10px; /* Add spacing between items */
 }
-/* Unordered List for elements */
-ul.elements {
-  list-style: none;    /* Remove default list bullet points */
-  padding: 0;
-  margin: 0;
-  text-align: left;     /* Align the list to the left */
-  padding-left: 5px;   /* Add padding to the left to create space */
-}
-/* List style for elements */
-ul.elements li {
-  display: block;      /* Make list items stack vertically */
-  margin-bottom: 0px; /* Adds space between items vertically */
-}
-/* Information so that there is a space before the first element of the list */
-ul.elements li:first-child {
-  padding-top: 20px;    /* Bigger padding above the first element */
-}
-/* elements list style */
-.elements {
-  list-style: none;
-  padding: 0;
-}
-
 
 
 
@@ -153,28 +116,3 @@ ul.elements li:first-child {
     bottom:0px;
 }
 
-
-
-/* container style for hovering images */
-.container {
-  text-align: center;
-  width: 80%;
-}
-
-
-
-/* Image display styles for hovering images*/
-.image-display {
-  display: none; /* Initially hide the image */
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 100;
-}
-/* image style*/
-#image {
-  height: 50vh; /* Image size when hovered */
-  object-fit: cover;
-  transition: opacity 0.3s ease;
-}
