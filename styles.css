@@ -14,10 +14,11 @@
 /* Subtitle Link Style */
 .subtitle {
   font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 12pt;
+  font-size: 10pt;
   color: black;
   font-weight: bold;
   text-transform: uppercase;
+  padding-top: 4pt
 }
 
 ul {
