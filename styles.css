@@ -5,6 +5,7 @@
   background-color: black !important;
   color: white !important;
 }
+
 /* Title Style */
 .title {
   font-family: 'Neue Haas Grotesk', sans-serif;
@@ -30,7 +31,7 @@
   color: black;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 4pt
+  padding-top: 4pt;
 }
 .subtitle-active {
   font-family: 'Neue Haas Grotesk', sans-serif;
@@ -38,31 +39,58 @@
   color: red !important;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 4pt
+  padding-top: 4pt;
 }
+
+/* General List Styling */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li {
-  display: inline-block;
-  margin-right: 10px; /* add spacing between items */
+/* Vertical List */
+ul.elements {
+  list-style: none;  /* Removes default list bullet points */
+  padding: 0;
+  margin: 0;
 }
 
-li_2 {
-  margin-right: 5px; /* add spacing between items */
+ul.elements li {
+  margin-bottom: 15px;  /* Adds space between items vertically */
 }
 
- .iframe_dims  {
-   float:left;
-   width:88%; max-width:888px; 
-   height:200px; 
-  margin:0 4.2em; 
-  border:solid 1px red; padding:0.42em;
-  overflow:auto;
-  }
+/* Element Style */
+.element {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 1cm; /* Indentation for the list items */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.element a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Hover effect for .element */
+.element:hover {
+  color: #007BFF; /* Blue on hover */
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;  /* Remove underline */
+}
+
+a:link    { color: black }    /* unvisited links */
+a:visited { color: black }   /* visited links */
+a:hover   { color: red }     /* user hovers */
+a:active  { color: red }     /* active links */
+a:focus   { color: black }   /* when element accepts tab focus */
 
 /* Paragraph Title Style */
 .paragraph-title {
@@ -82,67 +110,16 @@ li_2 {
   font-weight: normal; /* Regular weight */
 }
 
-/* Link Style */
-a {
-  text-decoration: none; /* Remove underline */
-}
-
-a:link    { color: black }    /* unvisited links */
-a:visited { color: black }   /* visited links   */
-a:hover   { color: red } /* user hovers     */
-a:active  { color: red }   /* active links    */
-a:active  { color: black }   /* when element accepts tab focus */
-
+/* Footer Style */
 .footer {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 6pt;
   color: black;
   font-weight: normal;
-    width:100%;
-    height:auto;
-    padding:1%;
-    position:absolute;
-    width:100%;
-    bottom:0px;
-}
-
-ul.elements {
-  list-style: none;  /* Removes default list bullet points */
-  padding: 0;
-  display: flex;      /* Makes the list items appear in a row */
-}
-
-ul.elements li {
-  margin-right: 20px;  /* Optional: adds space between the items */
-}
-
-.container {
-  text-align: center;
-  width: 80%;
-}
-
-.elements {
-  list-style: none;
-  padding: 0;
-}
-
-.element {
-  font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 10pt;
-  font-weight: bold;
-  margin: 10px 0;
-  padding-left: 1cm; /* Indentation for the list items */
-  cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-.element a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.element:hover {
-  color: #007BFF; /* Change text color on hover */
+  width: 100%;
+  padding: 1%;
+  position: absolute;
+  bottom: 0;
 }
 
 /* Image display styles */
