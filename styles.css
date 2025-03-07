@@ -159,7 +159,7 @@ ul.elements li:first-child {
 }
 
 #image {
-  height: 10cm; /* Image size when hovered */
+  height: 30vh; /* Image size when hovered */
   object-fit: cover;
   transition: opacity 0.3s ease;
 }
