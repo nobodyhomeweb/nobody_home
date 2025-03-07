@@ -47,6 +47,10 @@ li {
   margin-right: 10px; /* add spacing between items */
 }
 
+li_2 {
+  margin-right: 5px; /* add spacing between items */
+}
+
  .iframe_dims  {
    float:left;
    width:88%; max-width:888px; 
