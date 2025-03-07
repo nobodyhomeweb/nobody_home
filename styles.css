@@ -1,6 +1,10 @@
 /* Importing "Neue Haas Grotesk" font */
 @import url('https://fonts.googleapis.com/css2?family=Neue+Haas+Grotesk:wght@400;700&display=swap');
 
+::selection {
+  background-color: yellow; /* Background color for selected text */
+  color: black; /* Text color for selected text */
+}
 /* Title Style */
 .title {
   font-family: 'Neue Haas Grotesk', sans-serif;
