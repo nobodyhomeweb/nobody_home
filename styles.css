@@ -14,7 +14,7 @@
 /* Subtitle Link Style */
 .subtitle {
   font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 8pt;
+  font-size: 12pt;
   color: black;
   font-weight: bold;
   text-transform: uppercase;
@@ -43,7 +43,7 @@ li {
 /* Paragraph Title Style */
 .paragraph-title {
   font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 16pt;
+  font-size: 8pt;
   color: black;
   font-weight: bold;
   margin-bottom: 3pt; /* Space after paragraph title */
