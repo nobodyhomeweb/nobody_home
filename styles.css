@@ -105,3 +105,47 @@ a:active  { color: black }   /* when element accepts tab focus */
     width:100%;
     bottom:0px;
 }
+
+.container {
+  text-align: center;
+  width: 80%;
+}
+
+.elements {
+  list-style: none;
+  padding: 0;
+}
+
+.element {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  padding-left: 1cm; /* Indentation for the list items */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.element a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.element:hover {
+  color: #007BFF; /* Change text color on hover */
+}
+
+/* Image display styles */
+.image-display {
+  display: none; /* Initially hide the image */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+#image {
+  height: 5cm; /* Image size when hovered */
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
