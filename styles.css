@@ -145,7 +145,7 @@ ul.elements li:first-child {
 }
 
 .element:hover {
-  color: #007BFF; /* Change text color on hover */
+  color: #FF0000; /* Change text color on hover */
 }
 
 /* Image display styles */
@@ -159,7 +159,7 @@ ul.elements li:first-child {
 }
 
 #image {
-  height: 5cm; /* Image size when hovered */
+  height: 10cm; /* Image size when hovered */
   object-fit: cover;
   transition: opacity 0.3s ease;
 }
