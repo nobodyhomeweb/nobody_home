@@ -13,7 +13,7 @@
 .title-active {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 20pt;
-  color: red;
+  color: red !important;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px; /* Space after title */
@@ -31,7 +31,7 @@
 .subtitle-active {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 10pt;
-  color: red;
+  color: red !important;
   font-weight: bold;
   text-transform: uppercase;
   padding-top: 4pt
