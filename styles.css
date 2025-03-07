@@ -14,6 +14,7 @@
   text-transform: uppercase;
   margin-bottom: 20px; /* Space after title */
 }
+/* Title Style when active */
 .title-active {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 20pt;
@@ -32,6 +33,7 @@
   text-transform: uppercase;
   padding-top: 4pt
 }
+/* Subtitle Style when active */
 .subtitle-active {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 10pt;
@@ -40,26 +42,6 @@
   text-transform: uppercase;
   padding-top: 4pt
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin-right: 10px; /* Add spacing between items */
-}
-
-
- .iframe_dims  {
-   float:left;
-   width:88%; max-width:888px; 
-   height:200px; 
-  margin:0 4.2em; 
-  border:solid 1px red; padding:0.42em;
-  overflow:auto;
-  }
 
 /* Paragraph Title Style */
 .paragraph-title {
@@ -78,57 +60,7 @@ li {
   color: black;
   font-weight: normal; /* Regular weight */
 }
-
-/* Link Style */
-a {
-  text-decoration: none; /* Remove underline */
-}
-
-a:link    { color: black }    /* unvisited links */
-a:visited { color: black }   /* visited links   */
-a:hover   { color: red } /* user hovers     */
-a:active  { color: red }   /* active links    */
-a:active  { color: black }   /* when element accepts tab focus */
-
-.footer {
-  font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 6pt;
-  color: black;
-  font-weight: normal;
-    width:100%;
-    height:auto;
-    padding:1%;
-    position:absolute;
-    width:100%;
-    bottom:0px;
-}
-
-ul.elements {
-  list-style: none;    /* Remove default list bullet points */
-  padding: 0;
-  margin: 0;
-  text-align: left;     /* Align the list to the left */
-  padding-left: 5px;   /* Add padding to the left to create space */
-}
-
-ul.elements li {
-  display: block;      /* Make list items stack vertically */
-  margin-bottom: 5px; /* Adds space between items vertically */
-}
-
-ul.elements li:first-child {
-  padding-top: 20px;    /* Bigger padding above the first element */
-}
-.container {
-  text-align: center;
-  width: 80%;
-}
-
-.elements {
-  list-style: none;
-  padding: 0;
-}
-
+/* Element Style, for listed elements e.g. in similarity page */
 .element {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 10pt;
@@ -138,17 +70,86 @@ ul.elements li:first-child {
   cursor: pointer;
   transition: color 0.3s ease;
 }
-
-.element a {
-  text-decoration: none;
-  color: inherit;
-}
-
+/* Style for when hovering above element */
 .element:hover {
   color: #FF0000; /* Change text color on hover */
 }
 
-/* Image display styles */
+/* Link Style */
+a {
+  text-decoration: none; /* Remove underline */
+}
+a:link    { color: black }    /* unvisited links */
+a:visited { color: black }   /* visited links   */
+a:hover   { color: red } /* user hovers     */
+a:active  { color: red }   /* active links    */
+a:active  { color: black }   /* when element accepts tab focus */
+
+/* Unordered List, here specifically for the header */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* List style, here specifically for header */
+li {
+  display: inline-block;
+  margin-right: 10px; /* Add spacing between items */
+}
+/* Unordered List for elements */
+ul.elements {
+  list-style: none;    /* Remove default list bullet points */
+  padding: 0;
+  margin: 0;
+  text-align: left;     /* Align the list to the left */
+  padding-left: 5px;   /* Add padding to the left to create space */
+}
+/* List style for elements */
+ul.elements li {
+  display: block;      /* Make list items stack vertically */
+  margin-bottom: 5px; /* Adds space between items vertically */
+}
+/* Information so that there is a space before the first element of the list */
+ul.elements li:first-child {
+  padding-top: 20px;    /* Bigger padding above the first element */
+}
+/* elements list style */
+.elements {
+  list-style: none;
+  padding: 0;
+}
+/* Dimension of iframe for cosmoscope */
+ .iframe_dims  {
+   float:left;
+   width:88%; max-width:888px; 
+   height:200px; 
+  margin:0 4.2em; 
+  border:solid 1px red; padding:0.42em;
+  overflow:auto;
+  }
+/* footer style */
+.footer {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 6pt;
+  color: black;
+  font-weight: normal;
+    width:95%;
+    height:auto;
+    padding:1%;
+    position:absolute;
+    width:1%;
+    bottom:0px;
+}
+
+/* container style for hovering images */
+.container {
+  text-align: center;
+  width: 80%;
+}
+
+
+
+/* Image display styles for hovering images*/
 .image-display {
   display: none; /* Initially hide the image */
   position: fixed;
@@ -157,9 +158,9 @@ ul.elements li:first-child {
   transform: translate(-50%, -50%);
   z-index: 100;
 }
-
+/* image style*/
 #image {
-  height: 30vh; /* Image size when hovered */
+  height: 50vh; /* Image size when hovered */
   object-fit: cover;
   transition: opacity 0.3s ease;
 }
