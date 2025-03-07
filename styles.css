@@ -48,7 +48,7 @@ ul {
 
 li {
   display: inline-block;
-  margin-right: 10px; /* add spacing between items */
+  margin-right: 10px; /* Add spacing between items */
 }
 
 
@@ -110,7 +110,6 @@ ul.elements {
   text-align: left;     /* Align the list to the left */
   padding-left: 20px;   /* Add padding to the left to create space */
 }
-
 
 ul.elements li {
   display: block;      /* Make list items stack vertically */
