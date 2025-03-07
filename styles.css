@@ -104,13 +104,14 @@ a:active  { color: black }   /* when element accepts tab focus */
 }
 
 ul.elements {
-  list-style: none;  /* Removes default list bullet points */
+  list-style: none;    /* Remove default list bullet points */
   padding: 0;
-  display: flex;      /* Makes the list items appear in a row */
+  margin: 0;
 }
 
 ul.elements li {
-  margin-right: 20px;  /* Optional: adds space between the items */
+  display: block;      /* Make list items stack vertically */
+  margin-bottom: 15px; /* Adds space between items vertically */
 }
 
 .container {
