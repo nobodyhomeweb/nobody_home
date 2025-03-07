@@ -10,6 +10,14 @@
   text-transform: uppercase;
   margin-bottom: 20px; /* Space after title */
 }
+.title-active {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 20pt;
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px; /* Space after title */
+}
 
 /* Subtitle Link Style */
 .subtitle {
@@ -20,7 +28,14 @@
   text-transform: uppercase;
   padding-top: 4pt
 }
-
+.subtitle-active {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 10pt;
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 4pt
+}
 ul {
   list-style-type: none;
   margin: 0;
