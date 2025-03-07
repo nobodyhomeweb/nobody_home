@@ -3,7 +3,7 @@
 
 ::selection {
   background-color: red; /* Background color for selected text */
-  color: black; /* Text color for selected text */
+  color: white; /* Text color for selected text */
 }
 /* Title Style */
 .title {
