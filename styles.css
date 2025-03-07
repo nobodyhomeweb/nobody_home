@@ -40,13 +40,13 @@
   text-transform: uppercase;
   padding-top: 4pt
 }
-ul.header {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li.header {
+li {
   display: inline-block;
   margin-right: 10px; /* add spacing between items */
 }
