@@ -127,7 +127,8 @@ ul.elements li {
 }
 
 .element {
-  font-size: 18px;
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 10pt;
   font-weight: bold;
   margin: 10px 0;
   padding-left: 1cm; /* Indentation for the list items */
