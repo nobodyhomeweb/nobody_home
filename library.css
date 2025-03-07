@@ -1,0 +1,71 @@
+.library-table td {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 10pt;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Ensure that only the link (title) changes color on hover */
+.library-title:hover {
+  color: red;
+}
+
+/* Force other table cells (for type and author) to remain black on hover */
+.library-table td {
+  color: black;
+}
+.library-table td:hover {
+  color: black;
+}
+
+/* Library Table Styles */
+.library-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.library-table th,
+.library-table td {
+  border: 0px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.library-table th {
+  background-color: #ffffff;
+}
+
+/* Library Element: change cursor to pointer on hover */
+.library-element {
+  cursor: pointer;
+}
+
+/* Library Popup Styles */
+.library-popup {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 1000;
+  background: none;  /* No background */
+  border: none;      /* No border */
+  padding: 0;        /* No padding */
+  box-shadow: none;  /* No shadow */
+}
+
+.library-popup img {
+  max-width: 50vw;  /* Image scales to max 80% of viewport width */
+  max-height: 50vh; /* Image scales to max 80% of viewport height */
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+td {
+  width: 33.33%;
+}
