@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Neue+Haas+Grotesk:wght@400;700&display=swap');
 
 ::selection {
-  background-color: red; /* Background color for selected text */
+  background-color: black; /* Background color for selected text */
   color: white; /* Text color for selected text */
 }
 /* Title Style */
