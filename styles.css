@@ -40,20 +40,17 @@
   text-transform: uppercase;
   padding-top: 4pt
 }
-ul {
+ul.header {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-li {
+li.header {
   display: inline-block;
   margin-right: 10px; /* add spacing between items */
 }
 
-li_2 {
-  margin-right: 5px; /* add spacing between items */
-}
 
  .iframe_dims  {
    float:left;
