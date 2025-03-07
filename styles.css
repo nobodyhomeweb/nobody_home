@@ -65,15 +65,17 @@
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 10pt;
   font-weight: bold;
-  margin: 10px 0;
+  margin: 5px 0;
   padding-left: 1cm; /* Indentation for the list items */
   cursor: pointer;
-  transition: color 0.3s ease;
 }
 /* Style for when hovering above element */
 .element:hover {
   color: #FF0000; /* Change text color on hover */
 }
+
+
+
 
 /* Link Style */
 a {
@@ -84,6 +86,9 @@ a:visited { color: black }   /* visited links   */
 a:hover   { color: red } /* user hovers     */
 a:active  { color: red }   /* active links    */
 a:active  { color: black }   /* when element accepts tab focus */
+
+
+
 
 /* Unordered List, here specifically for the header */
 ul {
@@ -107,7 +112,7 @@ ul.elements {
 /* List style for elements */
 ul.elements li {
   display: block;      /* Make list items stack vertically */
-  margin-bottom: 5px; /* Adds space between items vertically */
+  margin-bottom: 0px; /* Adds space between items vertically */
 }
 /* Information so that there is a space before the first element of the list */
 ul.elements li:first-child {
@@ -118,6 +123,10 @@ ul.elements li:first-child {
   list-style: none;
   padding: 0;
 }
+
+
+
+
 /* Dimension of iframe for cosmoscope */
  .iframe_dims  {
    float:left;
@@ -127,6 +136,9 @@ ul.elements li:first-child {
   border:solid 1px red; padding:0.42em;
   overflow:auto;
   }
+
+
+
 /* footer style */
 .footer {
   font-family: 'Neue Haas Grotesk', sans-serif;
@@ -140,6 +152,8 @@ ul.elements li:first-child {
     width:1%;
     bottom:0px;
 }
+
+
 
 /* container style for hovering images */
 .container {
