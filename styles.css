@@ -99,7 +99,7 @@ li {
   top: 0;
   left: 0;
   margin: 0;
-  height: calc(100vh-95px);
+  height: 100vh;
   padding: 0;
   display: block;
   border: none;
