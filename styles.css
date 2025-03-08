@@ -96,10 +96,10 @@ li {
 
 .iframe-container {
   position: fixed;
-  top: 60px; /* Adjust this if your header height changes */
+  top: 100px; /* Adjust this if your header height changes */
   left: 0;
   width: 100vw;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 100px);
   display: flex;
   justify-content: center;
   align-items: center;
