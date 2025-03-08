@@ -99,7 +99,7 @@ li {
  .iframe_dims  {
    float:left;
    width:88%; max-width:888px; 
-   height:200px; 
+   height:180px; 
   margin:0 4.2em; 
   border:solid 1px red; padding:0.42em;
   overflow:auto;
