@@ -95,11 +95,10 @@ li {
 
 
 .iframe-dims {
-  display: block !important;
-  height: auto !important;
-  max-height: calc(100vh - 95px) !important;
-  box-sizing: border-box !important;
-  overflow: hidden; /* Hides scrollbar */
+  display: block;
+  width: 100vw;
+  height: calc(100vh - 95px); /* 60px is the header height; adjust as needed */
+  border: none; /* optional: removes default border */
 }
 
 .image-right {
