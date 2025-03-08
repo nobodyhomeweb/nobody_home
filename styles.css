@@ -97,7 +97,7 @@ li {
 .iframe-dims {
   display: block !important;
   height: auto !important;
-  max-height: calc(100vh - 91.2px) !important;
+  max-height: calc(100vh - 200px) !important;
   box-sizing: border-box !important;
   overflow: hidden; /* Hides scrollbar */
 }
