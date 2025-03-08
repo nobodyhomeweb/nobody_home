@@ -5,6 +5,26 @@
   background-color: black !important;
   color: white !important;
 }
+
+h1 {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 8pt;
+  color: black;
+  font-weight: bold;
+  padding-top: 8pt;
+  margin-bottom: 4pt;
+  padding-left: 8pt;
+}
+
+p1 {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 8pt;
+  color: black;
+  padding-top: 2pt;
+  margin-bottom: 2pt;
+  padding-left: 10pt;
+}
+
 /* Title Style */
 .title {
   font-family: 'Neue Haas Grotesk', sans-serif;
@@ -41,25 +61,6 @@
   font-weight: bold;
   text-transform: uppercase;
   padding-top: 4pt
-}
-
-/* Paragraph Title Style */
-.paragraph-title {
-  font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 8pt;
-  color: black;
-  font-weight: bold;
-  margin-bottom: 3pt; /* Space after paragraph title */
-  padding-top: 8pt;
-}
-
-/* Normal Paragraph Style */
-.paragraph {
-  font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 8pt;
-  color: black;
-  font-weight: normal; /* Regular weight */
-  padding-left: 10pt
 }
 
 
