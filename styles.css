@@ -109,13 +109,12 @@ li {
 
 
 
-.image-right {
-  float: right;
-  width: 20vw;  /* 30% of the viewport width */
-  height: auto; 
-  object-fit: cover; /* Ensures the image covers the specified dimensions */
-  margin-top: 15vh;
-  margin-right: 15vw;
+.iframe-dims {
+  height: auto !important;
+  max-height: calc(100vh - 91.2px) !important;
+  width: auto !important;
+  max-width: 100vw !important;
+  box-sizing: border-box; /* Ensures padding and border are included */
 }
 
 /* footer style */
