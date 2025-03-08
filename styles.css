@@ -96,10 +96,8 @@ li {
 
 .iframe-container {
   position: fixed;
-  top: 100px; /* Height of your header */
-  left: 0;
   width: 100vw;
-  height: calc(100vh - 100px);
+  height: 100vh;
   overflow: auto; /* Allows scrolling if needed */
 }
 
