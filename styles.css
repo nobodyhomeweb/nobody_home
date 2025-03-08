@@ -96,17 +96,19 @@ li {
 
 
 /* Dimension of iframe for cosmoscope */
- .iframe_dims  {
+.iframe_dims  {
   float: left;
-  margin: 0 4.2em;
-  border: solid 1px red;
+  width: 88%;
+  max-width: 888px; 
+  height: 150px; 
+  margin: 0 4.2em; 
+  border: solid 1px red; 
   padding: 0.42em;
   overflow: auto;
-  /* Ensure the iframe never exceeds the viewport width or height */
-  max-width: 100vw;
-  max-height: 100vh;
   box-sizing: border-box;
+  max-height: calc(100vh - 91.2px);
 }
+
 
 
 .image-right {
