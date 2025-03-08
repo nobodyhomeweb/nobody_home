@@ -102,6 +102,14 @@ li {
   overflow: hidden; /* Hides scrollbar */
 }
 
+.image-right {
+  float: right;
+  width: 30vw;       /* 30% of the viewport width */
+  height: auto;      /* Maintain natural aspect ratio */
+  margin-top: 33vh;  /* One third of the viewport height */
+  margin-left: 33vw; /* One third of the viewport width */
+}
+
 
 /* footer style */
 .footer {
