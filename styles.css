@@ -96,6 +96,9 @@ li {
 
 .iframe-dims {
   width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
   height: calc(100vh-95px);
   padding: 0;
   display: block;
