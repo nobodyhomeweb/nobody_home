@@ -12,10 +12,10 @@
 
 /* Force other table cells (for type and author) to remain black on hover */
 .library-table td {
-  color: black;
+  color: rgb(34,34,34);
 }
 .library-table td:hover {
-  color: black;
+  color: rgb(34,34,34);
 }
 
 /* Library Table Styles */
