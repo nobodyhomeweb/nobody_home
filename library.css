@@ -20,6 +20,7 @@
 
 /* Library Table Styles */
 .library-table {
+  position: relative; /* create a stacking context */
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
