@@ -23,6 +23,7 @@
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  z-index: 2000;
 }
 
 .library-table th,
