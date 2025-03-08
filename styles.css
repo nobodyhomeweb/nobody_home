@@ -97,12 +97,14 @@ li {
 
 /* Dimension of iframe for cosmoscope */
 .iframe_dims  {
-  float: left;
-  max-width: 888px; 
-  border: solid 1px red; 
-  overflow: auto;
-  box-sizing: border-box;
-  max-height: calc(100vh - 91.2px);
+  /* Remove the inline height by forcing height to auto */
+  height: auto !important;
+  /* Constrain the maximum height to the viewport minus header height (91.2px) */
+  max-height: calc(100vh - 91.2px) !important;
+  /* Optionally override width and padding too, if needed */
+  width: auto !important;
+  max-width: 100vw !important;
+  padding-top: 0 !important;
 }
 
 
