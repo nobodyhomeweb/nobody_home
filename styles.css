@@ -94,21 +94,11 @@ li {
 }
 
 
-.iframe-container {
-  position: fixed;
-  top: 100px; /* Adjust this if your header height changes */
-  left: 0;
-  width: 100vw;
-  height: calc(100vh - 100px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden; /* Prevents any scrollbars */
-}
-
 .iframe-dims {
-  width: 95vw;
-  height: 95vh;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  display: block;
   border: none;
   object-fit: contain; /* Preserves the content's aspect ratio */
 }
