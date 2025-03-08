@@ -107,8 +107,8 @@ li {
 
 .image-right {
   float: right;
-  width: 30vw;  /* 30% of the viewport width */
-  height: 30vh; /* 30% of the viewport height */
+  width: 10vw;  /* 30% of the viewport width */
+  height: 10vh; /* 30% of the viewport height */
   object-fit: cover; /* Ensures the image covers the specified dimensions */
   margin: 0 0 10px 10px; /* Optional: adds space around the image */
 }
