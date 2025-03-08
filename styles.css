@@ -94,11 +94,30 @@ li {
 }
 
 
-.iframe-dims {
-  display: block;
+.iframe-container {
+  /* Position the container below your header (assumed 60px height) */
+  position: fixed;
+  top: 60px;
+  left: 0;
   width: 100vw;
-  height: calc(100vh - 95px); /* 60px is the header height; adjust as needed */
-  border: none; /* optional: removes default border */
+  height: calc(100vh - 60px);
+  overflow: hidden;
+  
+  /* Center the iframe horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iframe-dims {
+  /* Set the iframe’s original content dimensions */
+  width: 1200px;  /* for example, adjust as needed */
+  height: 800px;  /* for example, adjust as needed */
+  border: none;
+  
+  /* Scale down to fit the container. Adjust the scale factor to your needs */
+  transform-origin: center center;
+  transform: scale(0.8);
 }
 
 .image-right {
