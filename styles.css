@@ -31,39 +31,39 @@
 /* Title Style */
 .title {
   font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 20pt;
+  font-size: 40pt;
   color: black;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px; /* Space after title */
+  margin-bottom: 40px; /* Space after title */
 }
 /* Title Style when active */
 .title-active {
   font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 20pt;
+  font-size: 40pt;
   color: red !important;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px; /* Space after title */
+  margin-bottom: 40px; /* Space after title */
 }
 
 /* Subtitle Link Style */
 .subtitle {
   font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 10pt;
+  font-size: 20pt;
   color: black;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 4pt
+  padding-top: 8pt
 }
 /* Subtitle Style when active */
 .subtitle-active {
   font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 10pt;
+  font-size: 20pt;
   color: red !important;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 4pt
+  padding-top: 8pt
 }
 
 
