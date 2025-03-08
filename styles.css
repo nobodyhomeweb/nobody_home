@@ -6,7 +6,7 @@
   color: white !important;
 }
 
-h1 {
+.h1 {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 8pt;
   color: black;
@@ -16,7 +16,7 @@ h1 {
   padding-left: 8pt;
 }
 
-p1 {
+.p1 {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 8pt;
   color: black;
