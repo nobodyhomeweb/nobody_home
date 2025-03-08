@@ -96,8 +96,9 @@ li {
 
 .iframe-container {
   position: fixed;
-  width: 100vw;
-  height: 100vh;
+  margin: auto;
+  width: 95vw;
+  height: 95vh;
   overflow: auto; /* Allows scrolling if needed */
 }
 
