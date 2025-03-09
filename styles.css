@@ -54,7 +54,7 @@
   color: black;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 8pt;
+  padding-top: 2pt;
   width: 100%;            /* Ensures container spans the available width */
   display: block;         /* Guarantees block-level element alignment */
   box-sizing: border-box; /* Helps manage width and padding consistently */
@@ -67,7 +67,7 @@
   color: red !important;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 8pt;
+  padding-top: 2pt;
   width: 100%;            /* Ensures container spans the available width */
   display: block;         /* Guarantees block-level element alignment */
   box-sizing: border-box; /* Helps manage width and padding consistently */
@@ -80,7 +80,7 @@
   color: black;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 8pt;
+  padding-top: 2pt;
   text-align: right;
   width: 100%;            /* Ensures container spans the available width */
   display: block;         /* Guarantees block-level element alignment */
@@ -94,7 +94,7 @@
   color: red !important;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 8pt;
+  padding-top: 2pt;
   text-align: right;
   width: 100%;            /* Ensures container spans the available width */
   display: block;         /* Guarantees block-level element alignment */
