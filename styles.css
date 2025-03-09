@@ -136,3 +136,25 @@ li {
     bottom:0px;
 }
 
+#modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  height: 50vh;
+  background: #fff;
+  border: 2px solid #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for modal content (customize as needed) */
+.modal-content {
+  text-align: center;
+  padding: 20px;
+}
+
