@@ -54,7 +54,7 @@
   color: black;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 8pt
+  padding-top: 8pt;
 }
 /* Subtitle Style when active */
 .subtitle-active {
@@ -63,7 +63,7 @@
   color: red !important;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 8pt
+  padding-top: 8pt;
 }
 
 /* Subtitle Link Style */
@@ -73,7 +73,7 @@
   color: black;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 8pt
+  padding-top: 8pt;
   text-align: right;
 }
 
@@ -84,7 +84,7 @@
   color: red !important;
   font-weight: bold;
   text-transform: uppercase;
-  padding-top: 8pt
+  padding-top: 8pt;
   text-align: right;
 }
 
