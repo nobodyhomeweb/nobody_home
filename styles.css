@@ -29,7 +29,8 @@
 }
 
 /* Title Style */
-.title {
+.title,
+.title-active {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 40pt;
   color: black;
@@ -39,66 +40,35 @@
 }
 /* Title Style when active */
 .title-active {
-  font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 40pt;
-  color: red !important;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 40px; /* Space after title */
+  color: red;
 }
 
 /* Subtitle Link Style */
-.subtitle {
-  font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 20pt;
-  color: black;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding-top: 2pt;
-  width: 100%;            /* Ensures container spans the available width */
-  display: block;         /* Guarantees block-level element alignment */
-  box-sizing: border-box; /* Helps manage width and padding consistently */
-}
-
-/* Subtitle Style when active */
-.subtitle-active {
-  font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 20pt;
-  color: red !important;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding-top: 2pt;
-  width: 100%;            /* Ensures container spans the available width */
-  display: block;         /* Guarantees block-level element alignment */
-  box-sizing: border-box; /* Helps manage width and padding consistently */
-}
-
-/* Subtitle Link Style */
-.subtitle-right {
-  font-family: 'Neue Haas Grotesk', sans-serif;
-  font-size: 20pt;
-  color: black;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding-top: 2pt;
-  text-align: right;
-  width: 100%;            /* Ensures container spans the available width */
-  display: block;         /* Guarantees block-level element alignment */
-  box-sizing: border-box; /* Helps manage width and padding consistently */
-}
-
-/* Subtitle Style when active */
+.subtitle,
+.subtitle-active,
+.subtitle-right,
 .subtitle-active-right {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 20pt;
-  color: red !important;
+  color: black;
   font-weight: bold;
   text-transform: uppercase;
   padding-top: 2pt;
-  text-align: right;
   width: 100%;            /* Ensures container spans the available width */
   display: block;         /* Guarantees block-level element alignment */
   box-sizing: border-box; /* Helps manage width and padding consistently */
+}
+
+/* Subtitle Style when active */
+.subtitle-active,
+.subtitle-active-right {
+  color: red;
+}
+
+/* Subtitle Link Style */
+.subtitle-right,
+.subtitle-active-right {
+  text-align: right;
 }
 
 /* Link Style */
