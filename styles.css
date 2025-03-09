@@ -143,7 +143,7 @@ li {
   transform: translate(-50%, -50%);
   width: 50vw;
   height: 60vh;
-  background: blue;
+  background: rgba(255,255,255,0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 1000;
   display: flex;
@@ -155,7 +155,7 @@ li {
 .modal-content {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 20pt;
-  color: black;
+  color: red;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
