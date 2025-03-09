@@ -40,7 +40,7 @@
 
 /* Library Element: change cursor to pointer on hover */
 .library-element {
-  cursor: pointer;
+  cursor: crosshair;
 }
 
 /* Library Popup Styles */
