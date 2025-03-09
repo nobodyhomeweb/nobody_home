@@ -1,0 +1,68 @@
+/* similiarity_style.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Hide default scrollbars */
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+/* The container holds all individual pages in a horizontal layout */
+#book-container {
+  display: flex;
+  height: 100vh;
+  transition: transform 0.5s ease; /* Smooth horizontal sliding */
+}
+
+/* Each page occupies 50vw so that two pages are visible at a time */
+.page {
+  width: 50vw;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Center images and scale them to ~75% of the page's width */
+.page img {
+  max-width: 75%;
+  height: auto;
+  display: block;
+}
+
+/* Bold text in the upper-left corner */
+.text-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-weight: bold;
+  color: white;
+  max-width: 80%;
+}
+
+/* Navigation arrow styles */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 2rem;
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px;
+  cursor: pointer;
+  z-index: 999;
+  user-select: none;
+}
+
+.arrow-left {
+  left: 10px;
+}
+
+.arrow-right {
+  right: 10px;
+}
