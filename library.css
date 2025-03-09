@@ -11,7 +11,7 @@ a.library-title:link {
 
 /* Ensure that only the link (title) changes color on hover */
 .library-title:hover {
-  color: red;
+  color: red !important;
 }
 
 /* Force other table cells (for type and author) to remain white on hover */
