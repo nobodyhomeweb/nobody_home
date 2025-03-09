@@ -10,7 +10,7 @@
   color: red;
 }
 
-/* Force other table cells (for type and author) to remain black on hover */
+/* Force other table cells (for type and author) to remain white on hover */
 .library-table td {
   color: white;
 }
@@ -53,7 +53,7 @@
   transform: translate(-50%, -50%);
   display: none;
   z-index: 1000 !important;
-  background: none;  /* No background */
+  background: black;  /* No background */
   border: none;      /* No border */
   padding: 0;        /* No padding */
   box-shadow: none;  /* No shadow */
