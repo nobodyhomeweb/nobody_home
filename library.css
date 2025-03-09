@@ -5,6 +5,10 @@
   font-weight: bold;
 }
 
+.library-title {
+  color: white;
+}
+
 /* Ensure that only the link (title) changes color on hover */
 .library-title:hover {
   color: red;
