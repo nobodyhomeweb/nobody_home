@@ -66,7 +66,27 @@
   padding-top: 8pt
 }
 
+/* Subtitle Link Style */
+.subtitle-right {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 20pt;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 8pt
+  align: right;
+}
 
+/* Subtitle Style when active */
+.subtitle-active-right {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 20pt;
+  color: red !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 8pt
+  align: right;
+}
 
 /* Link Style */
 a {
