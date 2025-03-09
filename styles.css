@@ -55,7 +55,11 @@
   font-weight: bold;
   text-transform: uppercase;
   padding-top: 8pt;
+  width: 100%;            /* Ensures container spans the available width */
+  display: block;         /* Guarantees block-level element alignment */
+  box-sizing: border-box; /* Helps manage width and padding consistently */
 }
+
 /* Subtitle Style when active */
 .subtitle-active {
   font-family: 'Neue Haas Grotesk', sans-serif;
@@ -64,6 +68,9 @@
   font-weight: bold;
   text-transform: uppercase;
   padding-top: 8pt;
+  width: 100%;            /* Ensures container spans the available width */
+  display: block;         /* Guarantees block-level element alignment */
+  box-sizing: border-box; /* Helps manage width and padding consistently */
 }
 
 /* Subtitle Link Style */
@@ -75,6 +82,9 @@
   text-transform: uppercase;
   padding-top: 8pt;
   text-align: right;
+  width: 100%;            /* Ensures container spans the available width */
+  display: block;         /* Guarantees block-level element alignment */
+  box-sizing: border-box; /* Helps manage width and padding consistently */
 }
 
 /* Subtitle Style when active */
@@ -86,6 +96,9 @@
   text-transform: uppercase;
   padding-top: 8pt;
   text-align: right;
+  width: 100%;            /* Ensures container spans the available width */
+  display: block;         /* Guarantees block-level element alignment */
+  box-sizing: border-box; /* Helps manage width and padding consistently */
 }
 
 /* Link Style */
