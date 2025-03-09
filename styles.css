@@ -40,36 +40,37 @@
 }
 /* Title Style when active */
 .title-active {
-  color: red;
+  color: red !important;
 }
 
-/* Subtitle Link Style */
+/* Basic styling shared by all subtitles */
 .subtitle,
 .subtitle-active,
 .subtitle-right,
 .subtitle-active-right {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 20pt;
-  color: black;
   font-weight: bold;
   text-transform: uppercase;
   padding-top: 2pt;
-  width: 100%;            /* Ensures container spans the available width */
-  display: block;         /* Guarantees block-level element alignment */
-  box-sizing: border-box; /* Helps manage width and padding consistently */
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none; /* optional: removes underline */
+  color: black;
 }
 
-/* Subtitle Style when active */
+/* Active subtitle (left-aligned, red color) */
 .subtitle-active,
 .subtitle-active-right {
-  color: red;
+  color: red !important;
 }
 
-/* Subtitle Link Style */
+/* Align right variants */
 .subtitle-right,
 .subtitle-active-right {
-  text-align: right;
+  margin-left: auto;
 }
+
 
 /* Link Style */
 a {
@@ -84,18 +85,23 @@ a:active  { color: black }   /* when element accepts tab focus */
 
 
 
-/* Unordered List, here specifically for the header */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-/* List style, here specifically for header */
-li {
-  display: inline-block;
-  margin-right: 10px; /* Add spacing between items */
+  display: flex; /* Added: use flexbox for alignment */
 }
 
+/* List items for header navigation */
+li {
+  display: inline-block;
+  margin-right: 20px; /* Adjust spacing as desired */
+}
+
+/* Right-aligned list item (applied on li, not the <a>) */
+.li-right {
+  margin-left: auto; /* pushes this li element to the far right */
+}
 
 .iframe-dims {
   width: 100%;
