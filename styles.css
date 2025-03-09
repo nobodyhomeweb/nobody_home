@@ -74,7 +74,7 @@
   font-weight: bold;
   text-transform: uppercase;
   padding-top: 8pt
-  align: right;
+  text-align: right;
 }
 
 /* Subtitle Style when active */
@@ -85,7 +85,7 @@
   font-weight: bold;
   text-transform: uppercase;
   padding-top: 8pt
-  align: right;
+  text-align: right;
 }
 
 /* Link Style */
