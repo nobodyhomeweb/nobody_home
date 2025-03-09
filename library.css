@@ -57,7 +57,7 @@ a.library-title:link {
   transform: translate(-50%, -50%);
   display: none;
   z-index: 1000 !important;
-  background: black;  /* No background */
+  background: transparent;  /* No background */
   border: none;      /* No border */
   padding: 0;        /* No padding */
   box-shadow: none;  /* No shadow */
