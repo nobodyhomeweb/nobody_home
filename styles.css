@@ -153,6 +153,11 @@ li {
 
 /* Style for modal content (customize as needed) */
 .modal-content {
+  font-family: 'Neue Haas Grotesk', sans-serif;
+  font-size: 20pt;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
   text-align: center;
   padding: 20px;
 }
