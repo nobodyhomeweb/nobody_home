@@ -1,12 +1,17 @@
+:root {
+  --offblack: rgb(10, 10, 10);
+  --offwhite: rgb(240, 240, 240);
+}
+
 .library-table td {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 14pt;
-  color: white;
+  color: var(--offwhite);
   font-weight: bold;
 }
 
 a.library-title:link {
-  color: white;
+  color: var(--offwhite);
 }
 
 /* Ensure that only the link (title) changes color on hover */
@@ -16,10 +21,10 @@ a.library-title:link {
 
 /* Force other table cells (for type and author) to remain white on hover */
 .library-table td {
-  color: white;
+  color: var(--offwhite);
 }
 .library-table td:hover {
-  color: white;
+  color: var(--offwhite);
 }
 
 .library-element {
@@ -46,7 +51,7 @@ a.library-title:link {
 }
 
 .library-table th {
-  background-color: #000000;
+  background-color: var(--offblack);
 }
 
 /* Library Element: change cursor to pointer on hover */
@@ -57,7 +62,7 @@ a.library-title:link {
 /* Library Popup Styles */
 .library-popup {
   font-family: 'Neue Haas Grotesk', sans-serif;
-  color: #ffffff;
+  color: var(--offwhite);
   position: fixed;
   top: 50%;
   left: 50%;
