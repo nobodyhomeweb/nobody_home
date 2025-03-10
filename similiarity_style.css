@@ -1,11 +1,14 @@
 /* similiarity_style.css */
-
+:root {
+  --offblack: rgb(10, 10, 10);
+  --offwhite: rgb(240, 240, 240);
+}
 html, body {
   margin: 0;
   padding: 0;
   overflow: hidden; /* Hide default scrollbars */
-  background-color: rgb(8,8,8);
-  color: rgb(243,243,243);
+  background-color: var(--offblack);
+  color: var(--offwhite);
   font-family: sans-serif;
 }
 
@@ -41,7 +44,7 @@ html, body {
   bottom: 20px;
   left: 20px;
   font-weight: bold;
-  color: rgb(243,243,243);
+  color: var(--offwhite);
   max-width: 80%;
 }
 
@@ -50,7 +53,7 @@ html, body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  color: rgb(243,243,243);
+  color: var(--offwhite);
   font-size: 2rem;
   background-color: rgba(0,0,0,0);
   padding: 10px;
