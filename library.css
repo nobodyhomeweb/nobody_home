@@ -1,6 +1,6 @@
 :root {
-  --offblack: rgb(10, 10, 10);
-  --offwhite: rgb(240, 240, 240);
+  --offblack: #101418;
+  --offwhite: ##eaecf0;
 }
 
 .library-table td {
