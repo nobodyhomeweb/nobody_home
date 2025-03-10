@@ -1,16 +1,21 @@
 /* Importing "Neue Haas Grotesk" font */
 @import url('https://fonts.googleapis.com/css2?family=Neue+Haas+Grotesk:wght@400;700&display=swap');
 
+:root {
+  --offblack: rgb(10, 10, 10);
+  --offwhite: rgb(240, 240, 240);
+}
+
 ::selection {
-  background-color: black !important;
-  color: white !important;
+  background-color: var(--offblack) !important;
+  color: var(--offwhite) !important;
 }
 
 .h1 {
   display: block;
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 8pt;
-  color: black;
+  color: var(--offblack);
   font-weight: bold;
   padding-top: 20pt;
   margin-bottom: 2pt;
@@ -22,7 +27,7 @@
   width: 33%;
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 8pt;
-  color: black;
+  color: var(--offblack);
   margin-bottom: 2pt;
   padding-left: 10pt;
   margin-right: auto;
@@ -33,7 +38,7 @@
 .title-active {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 40pt;
-  color: black;
+  color: var(--offblack);
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 40px; /* Space after title */
@@ -56,7 +61,7 @@
   display: inline-block;
   box-sizing: border-box;
   text-decoration: none; /* optional: removes underline */
-  color: black;
+  color: var(--offblack);
 }
 
 /* Active subtitle (left-aligned, red color) */
@@ -76,11 +81,11 @@
 a {
   text-decoration: none; /* Remove underline */
 }
-a:link    { color: black }    /* unvisited links */
-a:visited { color: black }   /* visited links   */
+a:link    { color: var(--offblack) }    /* unvisited links */
+a:visited { color: var(--offblack) }   /* visited links   */
 a:hover   { color: red } /* user hovers     */
 a:active  { color: red }   /* active links    */
-a:active  { color: black }   /* when element accepts tab focus */
+a:active  { color: var(--offblack) }   /* when element accepts tab focus */
 
 
 
@@ -126,7 +131,7 @@ li {
 .footer {
   font-family: 'Neue Haas Grotesk', sans-serif;
   font-size: 6pt;
-  color: black;
+  color: var(--offblack);
   font-weight: normal;
     width:95%;
     height:auto;
@@ -143,7 +148,7 @@ li {
   transform: translate(-50%, -50%);
   width: 50vw;
   height: 60vh;
-  background: rgba(255,255,255,0);
+  background: rgba(0,0,0,0);
   z-index: 1000;
   display: flex;
   justify-content: center;
