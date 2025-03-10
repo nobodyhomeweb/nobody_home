@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Neue+Haas+Grotesk:wght@400;700&display=swap');
 
 :root {
-  --offblack: rgb(10, 10, 10);
-  --offwhite: rgb(240, 240, 240);
+  --offblack: #101418;
+  --offwhite: ##eaecf0;
 }
 
 ::selection {
