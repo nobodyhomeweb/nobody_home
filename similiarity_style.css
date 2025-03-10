@@ -4,8 +4,8 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden; /* Hide default scrollbars */
-  background-color: black;
-  color: white;
+  background-color: rgb(17,17,17);
+  color: rgb(243,243,243);
   font-family: sans-serif;
 }
 
@@ -41,7 +41,7 @@ html, body {
   bottom: 20px;
   left: 20px;
   font-weight: bold;
-  color: white;
+  color: rgb(243,243,243);
   max-width: 80%;
 }
 
@@ -50,7 +50,7 @@ html, body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  color: white;
+  color: rgb(243,243,243);
   font-size: 2rem;
   background-color: rgba(0,0,0,0);
   padding: 10px;
